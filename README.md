@@ -34,3 +34,5 @@ history = model.fit(x=pixto_gen,
 
 Note that this syntax where we directly specify `model.fit(x=pixto_gen` is new to TensorFlow 2.1.
 Previous versions must use `model.fit_generator`. 
+
+by Francois Robert
