@@ -1,7 +1,7 @@
 # tf_keras_generator_with_targets
 ## Simple Custom TensorFlow image Generator where **target** values are also **modified**
 
-When having a dataset of images with coordinates as targets (e.g., vertices of a shape, coordinates for body landmarks), we want to augment the dataset, but we need a way to implement the ImageDataGenerator to modify the target variables according to image transformation. Ffor example, if the image is flipped horizontally, the target coordinates must be flipped also.
+When having a dataset of images with coordinates as targets (e.g., vertices of a shape, coordinates for body landmarks), we want to augment the dataset, but we need a way to implement the ImageDataGenerator to modify the target variables according to image transformation. For example, if the image is flipped horizontally, the target coordinates must be flipped also.
 
 ---
 ## Usage in Mix on Pix
@@ -11,7 +11,7 @@ The Image generator is very important as it allows to augment the image dataset 
 
 ---
 
-### Generator
+### Generators
 - Simple generator: [tf_generator_with_target.ipynb](tf_generator_with_target.ipynb). Supports horizontal and vertical flip.
 
 ---
