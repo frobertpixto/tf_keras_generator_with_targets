@@ -12,7 +12,7 @@ In general and for **[Mix on Pix](https://apps.apple.com/us/app/mix-on-pix-text-
 ---
 
 ### Generators
-- Simple generator: [tf_generator_with_target.ipynb](tf_generator_with_target.ipynb). Supports horizontal and vertical flip.
+- Simple generator: [tf_generator_with_target.ipynb](tf_generator_with_target.ipynb). Supports horizontal and vertical flip. **Note**: Also viewable from [here](https://nbviewer.jupyter.org/github/frobertpixto/tf_keras_generator_with_targets/blob/main/tf_generator_with_target.ipynb). 
 
 ---
 ### Usage in code
