@@ -3,6 +3,7 @@
 
 When we want to **augment** a dataset of images with **coordinates as targets** (e.g., vertices of a shape, coordinates for body landmarks), we need a way to implement a ImageDataGenerator to modify the target variables according to the image transformation. For example, if the image is flipped horizontally, the target coordinates must be flipped also.
 
+![Flipped example](images/flipped.example.png)
 ---
 ## Use Case: Mix on Pix
 I encountered this requirement when building the model to determine the vertices (angular points) of shapes like triangles or rectangles for the Auto-Shapes functionnality of the iOS app **[Mix on Pix](https://apps.apple.com/us/app/mix-on-pix-text-on-photos/id633281586)**.
